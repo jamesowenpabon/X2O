@@ -5,7 +5,6 @@ var X2O = X2O || {};
 	o.XML2OBJECT = function (url, callback, start) {
 		var that = this.constructor == o.XML2OBJECT ? this : {},
 			data = $.Deferred().done(function (data) {
-				console.log(data);
 				o.xdata[o.xdata.length] = data;
 				parseData.call(that, $(data).find(startNode));
 				$.extend(o.jdata, that)
