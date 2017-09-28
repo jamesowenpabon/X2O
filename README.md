@@ -3,11 +3,14 @@ XML 2 Javascript Object Parser
 
 Requires JQuery 1.9
 
+
+
 //Multiple Constructors
 
 myObj = new X2O.XML2OBJECT(xmlUrl, postProcessCallback [,startNode]);
 
 urObj = new X2O.XML2OBJECT(xmlUrl2, postProcessCallback [,startNode]);
+
 
 			
 //Multiple Function Calls
@@ -15,6 +18,7 @@ urObj = new X2O.XML2OBJECT(xmlUrl2, postProcessCallback [,startNode]);
 X2O.XML2OBJECT(xmlUrl, postProcessCallback [,startNode]);
 
 X2O.XML2OBJECT(xmlUrl2, postProcessCallback [,startNode]);
+
 
 
 Objects available in postProcessCallback function
